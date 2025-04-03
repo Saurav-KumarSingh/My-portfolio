@@ -32,12 +32,6 @@ const WorksItems = ({ item }) => {
 		}
 	};
 
-	const handleViewClick = () => {
-		if (item.status === 'completed' && item.demoUrl && item.demoUrl !== '#') {
-			window.open(item.demoUrl, '_blank');
-		}
-	};
-
 	const handleImageHover = () => {
 		if (!isMobile && item.status === 'completed' && item.demoUrl !== '#') {
 			previewTimeoutRef.current = setTimeout(() => setShowPreview(true), 500);
@@ -80,7 +74,7 @@ const WorksItems = ({ item }) => {
 					<div className='work__tooltip'>Under Development</div>
 				)}
 				{item.status === 'completed' && item.demoUrl !== '#' && (
-					<button className="view-button" onClick={handleViewClick}>
+					<button className="view-button" onClick={handleSourceClick}>
 						View ⮞
 					</button>
 				)}

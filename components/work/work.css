@@ -8,6 +8,7 @@
 	flex-wrap: wrap; /* Allow filters to wrap on smaller screens */
 }
 
+/* Highlight active filter */
 .work__item {
 	cursor: pointer;
 	color: var(--title-color);
@@ -18,8 +19,9 @@
 	transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-.work__item:hover {
-	background-color: var(--title-color);
+.work__item:hover,
+.work__item.active-work { 
+	background-color: var(--title-color); /* Highlighted background */
 	color: var(--container-color);
 }
 
