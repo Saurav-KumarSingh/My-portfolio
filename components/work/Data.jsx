@@ -4,6 +4,7 @@ import Work4 from '../../src/assets/campusc.jpg';
 import Work5 from '../../src/assets/productpulse.png';
 import Work6 from '../../src/assets/pickverse.png';
 import Work7 from '../../src/assets/pollapp.png';
+import Work8 from '../../src/assets/hero.png';
 
 export const projectsData = [
 	{
@@ -60,6 +61,15 @@ export const projectsData = [
 		sourceUrl: 'https://github.com/Saurav-KumarSingh/pollApp',
 		status: 'completed',
 		description: 'PollApp is a Flutter application that allows users to create polls and gather suggestions from others. It provides an interactive and engaging way to collect opinions and make informed decisions.',
+	},
+	{
+		id: 7,
+		image: Work8,
+		title: 'BuyIt',
+		category: 'web',
+		sourceUrl: 'https://github.com/Saurav-KumarSingh/BuyIt',
+		status: 'completed',
+		description: 'BuyIt is a MERN-based e-commerce platform with secure auth, payments, product management, and cloud image handling for users and admins.',
 	},
 ];
 
