@@ -5,6 +5,7 @@ import Work5 from '../../src/assets/productpulse.png';
 import Work6 from '../../src/assets/pickverse.png';
 import Work7 from '../../src/assets/pollapp.png';
 import Work8 from '../../src/assets/hero.png';
+import Work9 from '../../src/assets/quizopia.jpg';
 
 export const projectsData = [
 	{
@@ -70,6 +71,15 @@ export const projectsData = [
 		sourceUrl: 'https://github.com/Saurav-KumarSingh/BuyIt',
 		status: 'completed',
 		description: 'BuyIt is a MERN-based e-commerce platform with secure auth, payments, product management, and cloud image handling for users and admins.',
+	},
+	{
+		id: 8,
+		image: Work9,
+		title: 'Quizopia',
+		category: 'app',
+		sourceUrl: 'https://github.com/Saurav-KumarSingh/Quizopia',
+		status: 'completed',
+		description: 'Quizopia is a modern, interactive mobile quiz application built with Flutter and Firebase. Challenge your knowledge across various categories, compete on leaderboards, and track your progress in real-time!',
 	},
 ];
 
