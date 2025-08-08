@@ -11,7 +11,7 @@ export const projectsData = [
 	{
 		id: 1,
 		image: Work1,
-		title: 'Expense Tracker',
+		title: 'Expense Share',
 		category: 'web',
 		sourceUrl: 'https://github.com/Saurav-KumarSingh/Expense-share',
 		status: 'completed',
