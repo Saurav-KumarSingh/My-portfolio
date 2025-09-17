@@ -6,6 +6,7 @@ import Work6 from '../../src/assets/pickverse.png';
 import Work7 from '../../src/assets/pollapp.png';
 import Work8 from '../../src/assets/hero.png';
 import Work9 from '../../src/assets/quizopia.jpg';
+import Work10 from '../../src/assets/Fizzi.jpg';
 
 export const projectsData = [
 	{
@@ -80,6 +81,15 @@ export const projectsData = [
 		sourceUrl: 'https://github.com/Saurav-KumarSingh/Quizopia',
 		status: 'completed',
 		description: 'Quizopia is a modern, interactive mobile quiz application built with Flutter and Firebase. Challenge your knowledge across various categories, compete on leaderboards, and track your progress in real-time!',
+	},
+	{
+		id: 9,
+		image: Work10,
+		title: 'Fizzi',
+		category: 'app',
+		sourceUrl: 'https://github.com/Saurav-KumarSingh/Fizzi',
+		status: 'completed',
+		description: 'Fizzi is a modern Flutter-based social media app designed for seamless interaction, content sharing, and community engagement.',
 	},
 ];
 
