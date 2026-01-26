@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { TypeAnimation } from 'react-type-animation';
 
 const Data = () => {
@@ -112,8 +112,9 @@ const Data = () => {
       <TypeAnimation className="home__subtitle"
       sequence={[
         'Frontend Developer',
-        1000, // Waits 1s
+        1000,
         'Full Stack Developer',
+        'Java Full Stack Developer',
         'Flutter Mobile App Developer'
       ]}
       wrapper="span"

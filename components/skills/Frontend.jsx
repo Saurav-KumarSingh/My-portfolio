@@ -124,6 +124,13 @@ const Frontend = () => {
                        
                     </div>
                 </div>
+                <div className="skills__data">
+                    <i className='bx bxl-spring-boot' ></i>
+                    <div>
+                        <h3 className="skills__name">Spring Boot</h3>
+                       
+                    </div>
+                </div>
             </div>
         </div>
     </div>
