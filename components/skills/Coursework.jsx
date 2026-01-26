@@ -32,8 +32,7 @@ const Coursework = () => {
                     </div>
                 </div>
                 <div className="skills__data">
-                    <i className='bx bxl-post-man' ></i>
-
+                    <i className='bx bxl-postman' ></i>
                     <div>
                         <h3 className="skills__name">Postman</h3>
                     </div>

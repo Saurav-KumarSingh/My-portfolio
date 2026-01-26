@@ -1,15 +1,15 @@
-// eslint-disable-next-line no-unused-vars
-import React, { useState } from 'react';
+
+import { useState } from 'react';
 import "./about.css";
 import AboutImg from "../../src/assets/dp.jpg";
-import CV from "../../src/assets/saurav.pdf";
+import CV from "../../src/assets/resume.pdf";
 
 const About = () => {
   const [downloaded, setDownloaded] = useState(false);
 
   const handleDownload = () => {
     setDownloaded(true);
-    setTimeout(() => setDownloaded(false), 3000); // Reset after 3 seconds
+    setTimeout(() => setDownloaded(false), 3000);
   };
 
   return (
@@ -20,7 +20,7 @@ const About = () => {
         <div className="about__data">
           <h2>About Me</h2><br />
           <p className="about__description">
-          I am a <b>Full-Stack and Mobile App Developer</b> specializing in scalable web and mobile applications. Proficient in <b>React, Tailwind CSS, Bootstrap, Node.js, MongoDB, Firebase, and Flutter</b>, I focus on delivering efficient, user-centric, and high-performance digital solutions.
+          I am a <b>Full-Stack and Mobile App Developer</b> specializing in scalable web and mobile applications. Proficient in <b>Spring Boot, React, Tailwind CSS, Bootstrap, Node.js, SQL, Java, JavaScript MongoDB, Firebase, and Flutter</b>, I focus on delivering efficient, user-centric, and high-performance digital solutions.
           </p>
 
           <a 
