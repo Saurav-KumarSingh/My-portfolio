@@ -1,7 +1,7 @@
 
 import { useState } from 'react';
 import "./about.css";
-import AboutImg from "../../src/assets/dp.jpg";
+import AboutImg from "../../src/assets/profile_dp.png";
 import CV from "../../src/assets/Saurav_Kumar_Singh_Full_Stack_Developer.pdf";
 
 const About = () => {
