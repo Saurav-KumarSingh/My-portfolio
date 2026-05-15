@@ -91,6 +91,29 @@ const Qualification = () => {
                 </div>
               </div>
             </motion.div>
+            {/* Education Entry 3 */}
+            <motion.div className="qualification__data" variants={dataVariants}>
+              <div>
+                <h3 className="qualification__title">Matriculation📕</h3>
+                <span className="qualification__subtitle">Project +2 High School Kandsar</span>
+                <div className="qualification__calender">
+                  <i className="uil uil-calendar-alt"></i> 2018 - 2020
+                </div>
+              </div>
+
+              <div>
+                <motion.span
+                  className="qualification__round"
+                  initial={{ scale: 0 }}
+                  variants={{ visible: { scale: 1 } }}
+                />
+                <motion.span
+                  className="qualification__line"
+                  variants={lineVariants}
+                />
+              </div>
+            </motion.div>
+
           </motion.div>
         </div>
       </div>
