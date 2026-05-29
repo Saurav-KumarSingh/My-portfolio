@@ -2,7 +2,7 @@
 import { useState } from 'react';
 import "./about.css";
 import AboutImg from "../../src/assets/profile_dp.png";
-import CV from "../../src/assets/Saurav_Kumar_Singh_Full_Stack_Developer.pdf";
+import CV from "../../src/assets/Saurav_Singh_Full_Stack_Developer.pdf";
 
 const About = () => {
   const [downloaded, setDownloaded] = useState(false);
